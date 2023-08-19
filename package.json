@@ -1,0 +1,25 @@
+{
+  "name": "todo-list-console-app",
+  "version": "1.0.0",
+  "description": "app to manage a task list from the command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ingleo/todo-list-console-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingleo/todo-list-console-app/issues"
+  },
+  "homepage": "https://github.com/ingleo/todo-list-console-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0",
+    "uuid": "^9.0.0"
+  }
+}
